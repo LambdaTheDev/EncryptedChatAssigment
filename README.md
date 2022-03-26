@@ -1,2 +1,2 @@
 # EncryptedChatAssigment
-IT classes assigment, chat that encrypts data on send, and decrypts them on receive, with authoritative server.
+IT classes assigment, chat that encrypts data on send, and decrypts them on receive, with authoritative TCP server.

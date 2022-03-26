@@ -32,6 +32,8 @@ namespace LambdaTheDev.SimpleEncryptedCommunicator
 
             _input[_nickname.Length] = ' ';
             _input[_nickname.Length + 1] = ':';
+
+            _client.StartThreaded();
             
             byte[] buffer = new byte[ApplicationConsts.Mtu];
             UTF8Encoding encoding = new UTF8Encoding();

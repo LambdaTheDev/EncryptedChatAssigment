@@ -26,7 +26,7 @@ namespace LambdaTheDev.SimpleEncryptedCommunicator.Transport
             _nickname = nickname;
         }
 
-        private void StartThreaded()
+        public void StartThreaded()
         {
             Thread listeningThread = new Thread(() =>
             {
